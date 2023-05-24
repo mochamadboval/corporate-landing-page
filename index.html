@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whitespace UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-[Inter]">
+    <header
+      class="border-b border-gray-200 flex items-center px-4 py-2 md:px-8 md:py-2.5 lg:border-0 lg:max-w-[1216px] lg:mx-auto lg:py-[18px]"
+    >
+      <h1 class="mr-auto">
+        <picture>
+          <source media="(min-width:768px)" srcset="./images/logo.png" />
+          <img
+            src="./images/logo-mobile.png"
+            alt="Whitespace UI"
+            title="Whitespace UI"
+          />
+        </picture>
+      </h1>
+      <nav class="hidden lg:flex lg:font-medium lg:gap-6">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">About us</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+      </nav>
+      <a
+        href="#"
+        class="bg-blue-600 font-semibold px-4 py-2 rounded-lg text-white md:px-5 md:py-2.5 lg:ml-6 lg:text-sm"
+      >
+        Start now
+      </a>
+      <button class="ml-3 lg:hidden">
+        <img src="./images/menu-button.svg" class="md:w-11" />
+      </button>
+    </header>
+  </body>
+</html>
