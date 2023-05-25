@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,8 +21,8 @@
         </picture>
       </h1>
       <nav class="hidden lg:flex lg:font-medium lg:gap-6">
-        <a href="#">Home</a>
-        <a href="#">Features</a>
+        <a href="/">Home</a>
+        <a href="#Features">Features</a>
         <a href="#">About us</a>
         <a href="#">News</a>
         <a href="#">Contact</a>
@@ -40,6 +40,7 @@
     <main
       class="pt-12 px-4 md:pt-16 md:px-8 lg:max-w-[1216px] lg:mx-auto lg:px-0 lg:py-8"
     >
+      <!-- INTRODUCTION -->
       <article
         class="flex flex-col gap-12 md:gap-16 lg:flex-row lg:gap-8 lg:py-8"
       >
@@ -103,6 +104,85 @@
               class="hidden lg:absolute lg:block lg:bottom-5 lg:left-5"
             />
           </div>
+        </div>
+      </article>
+      <!-- FEATURES -->
+      <article
+        id="Features"
+        class="flex flex-col pt-12 pb-[18px] md:pt-16 md:pb-[90px] lg:flex-row lg:flex-wrap lg:gap-x-8 lg:items-center lg:py-20"
+      >
+        <div class="pb-8 pt-4 text-center md:pb-12 lg:pb-16 w-full">
+          <p
+            class="bg-blue-50 font-medium inline-block -my-0.5 px-2.5 py-0.5 rounded-full text-blue-700 text-sm"
+          >
+            Our Features
+          </p>
+          <h2
+            class="font-semibold leading-9 pt-2 text-[28px] text-gray-900 md:leading-[44px] md:text-4xl"
+          >
+            Our key benefits
+          </h2>
+          <p class="pt-2 md:pt-3 md:text-lg">
+            Our services are designed to cater to your specific needs and goals
+          </p>
+        </div>
+        <div class="pt-6 lg:py-[68px] lg:w-[calc(50%_-_16px)]">
+          <section class="p-6 text-blue-950">
+            <div class="bg-blue-50 inline-block -mb-1.5 p-2 rounded-xl">
+              <img src="./images/checklist.svg" alt="" />
+            </div>
+            <h3 class="font-semibold pt-4 text-lg md:text-xl">
+              Project Structure
+            </h3>
+            <p class="pt-2">
+              Check out our proven methods, guides, and exercises that help make
+              work better, and people happier.
+            </p>
+          </section>
+          <section class="p-6 text-blue-950">
+            <div class="bg-blue-50 inline-block -mb-1.5 p-2 rounded-xl">
+              <img src="./images/mobile.svg" alt="" />
+            </div>
+            <h3 class="font-semibold pt-4 text-lg md:text-xl">Responsive</h3>
+            <p class="pt-2">
+              This Design System and UI kit is coming with full-responsive
+              screens for tablet and mobile devices.
+            </p>
+          </section>
+          <section class="p-6 text-blue-950">
+            <div class="bg-blue-50 inline-block -mb-1.5 p-2 rounded-xl">
+              <img src="./images/message.svg" alt="" />
+            </div>
+            <h3 class="font-semibold pt-4 text-lg md:text-xl">Messaging</h3>
+            <p class="pt-2">
+              On mobile, customers can send text, or audio messages to agents,
+              like using any messaging app
+            </p>
+          </section>
+        </div>
+        <div
+          class="gap-4 grid grid-cols-2 grid-rows-8 mt-6 p-4 md:gap-8 md:p-[23px] lg:mt-0 lg:p-0 lg:w-[calc(50%_-_16px)]"
+        >
+          <img
+            src="./images/workspace.png"
+            alt=""
+            class="col-end-2 col-start-1 justify-self-end row-span-5 row-start-1"
+          />
+          <img
+            src="./images/discussion.png"
+            alt=""
+            class="col-end-2 col-start-1 justify-self-end row-span-3 row-start-6"
+          />
+          <img
+            src="./images/book-and-phone.png"
+            alt=""
+            class="col-end-3 col-start-2 row-span-3 row-start-1"
+          />
+          <img
+            src="./images/relax-space.png"
+            alt=""
+            class="col-end-3 col-start-2 row-span-5 row-start-4"
+          />
         </div>
       </article>
     </main>
